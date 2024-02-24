@@ -14,7 +14,8 @@
         <div class="row mt-2">
             @foreach ($models as $model)
                 <div class="alert alert-info">
-                    <h3>Name : {{ $model->name }}</h3>
+
+                    <h3>#. {{ $model->id }}, Name : {{ $model->name }}</h3>
                     <p>Text : {{ $model->text }}</p>
                     <b>Price : {{ $model->price }}</b>
                 </div>
